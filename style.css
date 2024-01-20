@@ -1,0 +1,99 @@
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/musical-colorful-notes-dark-background_1017-32302.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+    margin-top: 11vw;
+}
+
+h1 {
+    font-size: 4vw; 
+    z-index: 1;
+    text-shadow: 3px 0 rgb(139, 28, 139);
+}
+
+.name {
+    color: rgb(139, 28, 139);
+    text-shadow: 3px 3px black;
+    font-family: 'Sevillana', cursive;
+}
+
+button {
+    background-color: rgb(8, 36, 59);
+    border-radius: 2vw;
+    padding: 1vw; 
+    margin-top: 2vw; 
+    color: white;
+    font-weight: bold;
+    border: transparent;
+}
+
+button:hover {
+    background-color: rgb(40, 76, 105);
+    border: 0.2vw solid rgb(139, 28, 139); 
+    cursor: pointer;
+}
+
+.second {
+    color: white;
+    height: auto;
+   /* background-color: #003087;*/
+   opacity: 0.5;
+    font-size: 2vw;
+    width: 80%; 
+    margin-top: 2vw; 
+    text-align: center; 
+    padding: 2vw; 
+}
+
+img {
+    height: 5vw; 
+    width: 5vw; 
+    border-radius: 50%;
+    border: 0.2vw solid white; 
+   
+}
+
+.logo{
+    margin-top: 2vw;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        margin-top: 30vw; 
+        font-size: 7vw;
+    }
+    h1{
+        font-size: 8vw;
+    }
+    .name{
+        color:rgb(0, 255, 255);   
+    }
+    img{
+        height: 14vw; 
+        width: 14vw; 
+    }
+    .second{
+        font-size: 6vw;
+    }
+   
+    
+}
+
